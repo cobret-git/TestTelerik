@@ -116,7 +116,7 @@ namespace TestTelerik.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TestTelerik;component/view/fileview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TestTelerik;V1.0.0.0;component/view/fileview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\FileView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
